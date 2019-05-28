@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAdmin", "LazyAdmin\LazyAdmin.csproj", "{F114800E-EEAA-4BDF-941D-20E67B0BD746}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAdmin", "LazyAdmin\LazyAdmin.csproj", "{BEE2142F-792F-480E-98F8-4552D50EAA5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAdminPanel", "LazyAdminPanel\LazyAdminPanel.csproj", "{DCBA41C1-9698-4C19-8BCF-4A5D5B7603E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F114800E-EEAA-4BDF-941D-20E67B0BD746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F114800E-EEAA-4BDF-941D-20E67B0BD746}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F114800E-EEAA-4BDF-941D-20E67B0BD746}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F114800E-EEAA-4BDF-941D-20E67B0BD746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE2142F-792F-480E-98F8-4552D50EAA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE2142F-792F-480E-98F8-4552D50EAA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE2142F-792F-480E-98F8-4552D50EAA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE2142F-792F-480E-98F8-4552D50EAA5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBA41C1-9698-4C19-8BCF-4A5D5B7603E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBA41C1-9698-4C19-8BCF-4A5D5B7603E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBA41C1-9698-4C19-8BCF-4A5D5B7603E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBA41C1-9698-4C19-8BCF-4A5D5B7603E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
