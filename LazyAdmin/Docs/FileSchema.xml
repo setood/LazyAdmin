@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LazyAdminQuery Type="{simple|import|export}" Name="queryNameToDisplay">
+  <SqlParameters>
+    <SqlParameter Name="@name1" Type="{NvarChar(10)|int|bit...}"/>
+    <SqlEnumParameter Name="@name2" Type="{NvarChar(10)|int|bit...}">
+      <EnumItem>var1</EnumItem>
+      <EnumItem>var2</EnumItem>
+      <EnumItem>var3</EnumItem>
+      <EnumItem>var4</EnumItem>
+    </SqlEnumParameter>
+    <SqlQueryEnumParameter  Name="@name2" Type="{NvarChar(10)|int|bit...}">
+      <EnumQuery>select column1 from table1</EnumQuery>
+    </SqlQueryEnumParameter>
+  </SqlParameters>
+</LazyAdminQuery>
+Нужно расписать что делать с Таблицей на импорт и Экспорт. Возможно экспорт не должен отличаться 
+подумать про параметр который вызывает рекурсивно другой запрос.

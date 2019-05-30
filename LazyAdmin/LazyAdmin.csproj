@@ -41,10 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExportQuery.cs" />
+    <Compile Include="ImportQuery.cs" />
+    <Compile Include="ImprortTableStructure.cs" />
+    <Compile Include="Ladmin.cs" />
+    <Compile Include="Parameter.cs" />
+    <Compile Include="ParameterFabric.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryBase.cs" />
+    <Compile Include="QueryFabric.cs" />
+    <Compile Include="SimpleQuery.cs" />
+    <Compile Include="Type.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Docs\" />
+    <Content Include="Docs\FileSchema.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Docs\ClassDiagram1.cd" />
+    <None Include="Docs\ТЗ.drawio" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
